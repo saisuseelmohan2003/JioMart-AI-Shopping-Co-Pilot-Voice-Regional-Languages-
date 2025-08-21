@@ -1,0 +1,15 @@
+streamlit==1.37.1
+streamlit-mic-recorder==0.0.8
+pydub==0.25.1
+
+# LLM / LangChain
+langchain==0.2.14
+langchain-community==0.2.12
+
+# STT engines (either is fine; app tries Vosk then Google SR)
+vosk==0.3.45
+SpeechRecognition==3.10.4
+
+# Utilities
+pandas==2.2.2
+requests==2.32.3
